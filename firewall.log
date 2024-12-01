@@ -1,0 +1,23 @@
+2024-11-26 23:34:17,037 - Packet allowed: {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:34:17,038 - Packet denied: {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:34:17,038 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
+2024-11-26 23:36:30,144 - Rule added: {'action': 'allow', 'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'protocol': 'TCP', 'dest_port': 80}
+2024-11-26 23:36:35,383 - Packet allowed: {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:36:35,386 - Packet denied: {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:36:35,386 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
+2024-11-26 23:36:50,440 - Rule removed: {'action': 'deny', 'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'protocol': 'TCP', 'dest_port': 22}
+2024-11-26 23:36:51,978 - Packet allowed: {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:36:51,978 - Packet denied (default rule): {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:36:51,978 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
+2024-11-26 23:37:28,568 - Rule added: {'action': 'deny', 'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'protocol': 'TCP', 'dest_port': 80}
+2024-11-26 23:37:29,951 - Packet allowed: {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:37:29,951 - Packet denied (default rule): {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:37:29,951 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
+2024-11-26 23:37:49,466 - Packet allowed: {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:37:49,466 - Packet denied: {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:37:49,467 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
+2024-11-26 23:37:57,891 - Rule removed: {'action': 'allow', 'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'protocol': 'TCP', 'dest_port': 80}
+2024-11-26 23:38:01,327 - Invalid rule index.
+2024-11-26 23:38:08,781 - Packet denied (default rule): {'src_ip': '192.168.1.10', 'dest_ip': '192.168.1.20', 'src_port': 1234, 'dest_port': 80, 'protocol': 'TCP'}
+2024-11-26 23:38:08,782 - Packet denied: {'src_ip': '10.0.0.5', 'dest_ip': '192.168.1.20', 'src_port': 5678, 'dest_port': 22, 'protocol': 'TCP'}
+2024-11-26 23:38:08,782 - Packet denied (default rule): {'src_ip': '192.168.1.15', 'dest_ip': '8.8.8.8', 'src_port': 1111, 'dest_port': 53, 'protocol': 'UDP'}
