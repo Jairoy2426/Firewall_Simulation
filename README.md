@@ -42,3 +42,6 @@ Enter the numeric index shown in **Show Rules** to remove a rule.
 
 ## Notes
 - Rules are stored in memory for the current session only. Restarting the script resets the rules to the defaults defined in `firewall.py`.
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
